@@ -38,11 +38,11 @@ class Cell {
     this.#y = y;
   }
 
-  get tile() {
+  get Tile() {
     return this.#tile;
   }
 
-  set tile(value) {
+  set Tile(value) {
     this.#tile = value;
     if (value == null) return;
     this.#tile.x = this.#x;
